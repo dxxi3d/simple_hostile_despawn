@@ -11,6 +11,10 @@ Fixes mob-lag caused by picked-up items while safely dropping loot when mobs des
 * Allows hostile mobs in boats and minecarts to despawn naturally.
 * Protects named mobs with name tags from despawning.
 
+## Download
+* [Modrinth](https://modrinth.com/mod/simple_hostile_despawn)
+* [CurseForge](https://www.curseforge.com/minecraft/mc-mods/simple-hostile-despawn)
+
 ## Issues & Feedback
 If you encounter any bugs or have feature requests, please report them on the [GitHub Issue Tracker](https://github.com/dxxi3d/simple_hostile_despawn/issues).
 
