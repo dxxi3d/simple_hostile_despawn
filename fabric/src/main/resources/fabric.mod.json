@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "simple_hostile_despawn",
+  "version": "${version}",
+  "name": "Simple Hostile Despawn",
+  "description": "Fixes mob-lag caused by picked-up items while safely dropping loot and more... Server-side only.",
+  "authors": [
+    "dxxi3d"
+  ],
+  "contact": {
+    "sources": "https://github.com/dxxi3d/simple_hostile_despawn",
+    "issues": "https://github.com/dxxi3d/simple_hostile_despawn/issues"
+  },
+  "license": "All Rights Reserved",
+  "icon": "assets/simple_hostile_despawn/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dxxi3d.simple_hostile_despawn.MainFabric"
+    ]
+  },
+  "mixins": [
+    "simple_hostile_despawn.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": ">=${minecraft_version}",
+    "java": ">=25"
+  }
+}

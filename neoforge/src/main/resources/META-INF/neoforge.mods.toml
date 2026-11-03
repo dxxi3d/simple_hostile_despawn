@@ -1,0 +1,30 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="simple_hostile_despawn"
+version="${version}"
+displayName="Simple Hostile Despawn"
+description="Fixes mob-lag caused by picked-up items while safely dropping loot and more... Server-side only."
+authors="dxxi3d"
+displayURL="https://github.com/dxxi3d/simple_hostile_despawn"
+issueTrackerURL="https://github.com/dxxi3d/simple_hostile_despawn/issues"
+iconFile="assets/simple_hostile_despawn/icon.png"
+
+[[mixins]]
+config="simple_hostile_despawn.mixins.json"
+
+[[dependencies.simple_hostile_despawn]]
+modId="neoforge"
+type="required"
+versionRange="[21.0,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.simple_hostile_despawn]]
+modId="minecraft"
+type="required"
+versionRange="[${minecraft_version},)"
+ordering="NONE"
+side="BOTH"
