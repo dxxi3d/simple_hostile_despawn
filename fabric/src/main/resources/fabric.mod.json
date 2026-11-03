@@ -3,7 +3,7 @@
   "id": "simple_hostile_despawn",
   "version": "${version}",
   "name": "Simple Hostile Despawn",
-  "description": "Fixes mob-lag caused by picked-up items while safely dropping loot and more... Server-side only.",
+  "description": "Fixes mob-lag caused by picked-up items while safely dropping loot when mobs despawn.",
   "authors": [
     "dxxi3d"
   ],
